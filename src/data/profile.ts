@@ -1,16 +1,16 @@
 
 export const profile = {
-  name: "Dr. Principal Name",
-  designation: "Principal",
+  name: "Dr. John Doe",
+  designation: "Experienced Academic Leader & Principal",
   college: "College Name",
   shortBio:
     "An experienced academic leader dedicated to quality education, institutional development, and student success.",
   biography:
     "An accomplished educationist and academic administrator with a strong commitment to academic excellence, institutional leadership, and the holistic development of students. Dedicated to creating an inclusive learning environment and promoting quality education.",
   email: "principal@example.com",
-  phone: "+880 1XXXXXXXXX",
+  phone: "+880 1234 567 890",
   address: "Bangladesh",
-  image: "/images/principal.jpg",
+  image: "/images/b.jpg",
   cv: "/documents/principal-cv.pdf",
 
   socialLinks: {
@@ -43,16 +43,30 @@ export const education = [
 
 export const experiences = [
   {
-    position: "Principal",
-    institution: "College Name",
-    period: "20XX - Present",
+    position: "Head of Department",
+    institution: "Employable Skills Development Program-ESDP",
+    period: "2025 - Present",
     description:
       "Leading academic administration, institutional development, and educational activities.",
   },
   {
-    position: "Vice Principal / Lecturer",
-    institution: "Previous Institution",
-    period: "20XX - 20XX",
+    position: "Chief Administrative Officer",
+    institution: "TMSS Feroza Ayurvedic-Unani Medical College & Hospital",
+    period: "2017",
+    description:
+      "Contributed to teaching, academic planning, and institutional management.",
+  },
+   {
+    position: "Chief Administrative Officer",
+    institution: "TMSS Institute of Science And ICT",
+    period: "2017",
+    description:
+      "Leading academic administration, institutional development, and educational activities.",
+  },
+  {
+    position: "Chief Administrative Officer",
+    institution: "Jobeda Foundation Nursing Institute",
+    period: "2021",
     description:
       "Contributed to teaching, academic planning, and institutional management.",
   },
