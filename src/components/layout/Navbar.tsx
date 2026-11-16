@@ -22,12 +22,12 @@ export default function Navbar() {
       <div className="container mx-auto flex h-20 items-center justify-between px-5">
         <Link href="#home" className="flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-slate-900 text-xl font-bold text-amber-400">
-            P
+            Abu
           </div>
 
           <div>
-            <p className="font-bold text-slate-900">Principal</p>
-            <p className="text-xs text-slate-500">Academic Portfolio</p>
+            <p className="font-bold text-slate-900">Abu</p>
+            <p className="text-xs text-slate-500">ES</p>
           </div>
         </Link>
 

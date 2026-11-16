@@ -1,4 +1,4 @@
-
+/* 
 
 @import "tailwindcss";
 
@@ -39,4 +39,60 @@ button {
 
 section {
   scroll-margin-top: 80px;
+} */
+
+
+
+/* Fade Up Animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.9s ease-out both;
+}
+
+.animation-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animation-delay-400 {
+  animation-delay: 0.4s;
+}
+
+.animation-delay-600 {
+  animation-delay: 0.6s;
+}
+
+/* Profile Image Animation */
+@keyframes imageReveal {
+  from {
+    opacity: 0;
+    transform: translateX(40px) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+.animate-image-reveal {
+  animation: imageReveal 1.2s ease-out both;
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-image-reveal {
+    animation: none;
+  }
 }

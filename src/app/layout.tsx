@@ -46,7 +46,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Principal | Academic Portfolio",
+  title: "My Portfolio",
   description:
     "Official academic and professional portfolio of the College Principal.",
   keywords: [

@@ -83,7 +83,7 @@ import {
 import {
   FaLinkedinIn,
   FaFacebookF,
-  FaGithub,
+  FaWhatsapp as Whatsapp,
 } from "react-icons/fa";
 
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -156,12 +156,12 @@ ${formData.message}`;
     {
       icon: FaFacebookF,
       name: "Facebook",
-      url: profile.socialLinks.facebook,
+      url: "https://www.facebook.com/bigraihan.bd",
     },
     {
-      icon: FaGithub,
-      name: "GitHub",
-      url: "https://github.com/RezaerRabby",
+      icon: Whatsapp,
+      name: "WhatsApp",
+      url: "https://wa.me/+8801711405998",
     },
   ];
 

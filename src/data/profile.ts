@@ -1,7 +1,7 @@
 
 export const profile = {
-  name: "Dr. John Doe",
-  designation: "Experienced Academic Leader & Principal",
+  name: "Md Abu",
+  designation: "Experienced Academic Leader & ES Head",
   college: "College Name",
   shortBio:
     "An experienced academic leader dedicated to quality education, institutional development, and student success.",
